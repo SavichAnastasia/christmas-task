@@ -1,0 +1,15 @@
+{
+  "include": [
+      "src/*"
+  ],
+  "compilerOptions": {
+      "target": "es5",
+      "sourceMap": true,
+      "jsx": "react",
+      "noEmit": false,
+      "allowSyntheticDefaultImports": true,
+      "lib": ["dom", "esnext"],
+      "module": "esnext",
+      "esModuleInterop": true
+  }
+}
