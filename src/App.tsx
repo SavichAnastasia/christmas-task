@@ -1,9 +1,12 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store/index';
+import StartPage from './components/StartPage';
 
 const App: React.FC = () => (
-    <div>
-      Hi
-    </div>
-  )
+    <Provider store={store}>
+        <StartPage />
+    </Provider>
+);
 
-  export default  App;
+export default App;
