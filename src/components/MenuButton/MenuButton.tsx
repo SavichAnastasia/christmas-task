@@ -10,8 +10,8 @@ type MenuButtonProps = {
 
 const MenuButton: React.FC<MenuButtonProps> = ({ text, linkTo }) => {
     return (
-        <Link to={linkTo}>
-            <Button variant="contained">{text}</Button>;
+        <Link className={styles.link} to={linkTo}>
+            <Button className={styles.menuItem}>{text}</Button>
         </Link>
     );
 };

@@ -1,0 +1,23 @@
+div.toyCard {
+  box-shadow: 2px 2px 6px 1px rgba(12, 24, 46, .8);
+  backdrop-filter: blur(2px);
+  background-color: rgba(12, 24, 46, .3);
+  color: #fff;
+  padding: 24px;
+  
+  .cardContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 8px;
+    color:#bcc0bc;
+
+    .toyImg {
+      width: 40%;
+    }
+  
+    .toyContent {
+      padding: 0 0 0 24px;
+    }
+  }
+}
