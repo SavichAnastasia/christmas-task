@@ -1,38 +1,38 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
-  "compilerOptions": {
-    "sourceMap": true,
-    "jsx": "react",
-    "noEmit": false,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
     ],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "module": "amd",
-    "target": "esnext",
-    "baseUrl": ".",
-    "paths": {
-      "*.ts": [
-        "*"
-      ]
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "sourceMap": true,
+        "jsx": "react",
+        "noEmit": false,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "module": "amd",
+        "target": "esnext",
+        "baseUrl": ".",
+        "paths": {
+            "*.ts": [
+                "*"
+            ]
+        }
     }
-  }
 }
 // {
 //   "compilerOptions": {

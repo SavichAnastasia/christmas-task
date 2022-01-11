@@ -4,6 +4,12 @@ div.toyCard {
   background-color: rgba(12, 24, 46, .3);
   color: #fff;
   padding: 24px;
+  margin: 16px;
+  flex: 1 1 30%;
+
+  .cardHeaderTitle {
+    font-size: 1.1rem;
+  }
   
   .cardContainer {
     display: flex;
@@ -13,11 +19,29 @@ div.toyCard {
     color:#bcc0bc;
 
     .toyImg {
-      width: 40%;
+        width: 50%;
+        display: block;
+        -webkit-background-size: contain;
+        background-size: contain;
+        -webkit-background-position: top;
+        background-position: top;
+        object-fit: contain;
     }
   
     .toyContent {
       padding: 0 0 0 24px;
+    }
+  }
+
+  .icon {
+      margin-top: 16px;
+
+    &.red {
+        color: red;
+    }
+  
+    &.grey {
+      color: grey;
     }
   }
 }
