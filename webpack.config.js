@@ -22,11 +22,13 @@ module.exports = (env, options) => {
             },
             compress: true,
             port: 3000,
+            historyApiFallback: true,
+            hot: true,
         },
         module: {
             rules: [
                 {
-                    test: /\.(png|jpe?g|gif|svg)$/i,
+                    test: /\.(png|jpeg|gif|svg)$/i,
                     use: [
                         {
                             loader: 'file-loader',

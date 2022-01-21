@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .container {
   display: flex;
   align-items: center;
@@ -8,7 +10,7 @@
   background-size: cover;
 
     .title {
-      color: white;
+      color: $white;
       font-family: "Roboto","Helvetica","Arial",sans-serif;
       text-shadow: 1px 1px 2px #350e0e;
       font-size: 28px;

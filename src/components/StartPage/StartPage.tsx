@@ -10,7 +10,7 @@ const StartPage: React.FC = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<WelcomePage />}></Route>
+                <Route index element={<WelcomePage />}></Route>
                 <Route path="/game" element={<MainPage />}></Route>
             </Routes>
         </Router>

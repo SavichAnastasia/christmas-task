@@ -3,7 +3,6 @@ import { Container } from '@mui/material';
 import styles from './styles.module.scss';
 import data from '../../../data';
 import ToyCard from '../ToyCard';
-import ChristmasToys from '.';
 
 type ChristmasToy = {
     num: string;

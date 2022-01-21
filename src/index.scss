@@ -1,5 +1,7 @@
+@import 'variables.scss';
+
 body {
-    background: #123312;
+    background: $dark-green;
 }
 
 * {
@@ -13,3 +15,18 @@ body {
 a {
   text-decoration: none;
 }
+
+#root {
+    button.MuiTab-root {
+        color: $white;
+
+        &.Mui-selected {
+            color: $beige;
+        }
+    }
+
+    .MuiTabs-indicator {
+        background-color: $beige;
+    }
+}
+
