@@ -3,6 +3,7 @@ import { Tabs, Box, Tab, Typography } from '@mui/material';
 import styles from './styles.module.scss';
 import ChristmasTree from '../ChristmasTree';
 import ChristmasToys from '../ChristmasToys';
+import Filters from '../Filters';
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -54,6 +55,7 @@ const MainPage: React.FC = () => {
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
+                    <Filters />
                     <ChristmasToys />
                 </TabPanel>
                 <TabPanel value={value} index={1}>
